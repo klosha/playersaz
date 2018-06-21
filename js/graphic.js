@@ -10,21 +10,33 @@ var key =
 var columns = [{
   "data": "pnm",
   "title": "Player Name"
+  "targets": [ 0 ],
+  "visible": true,
 }, {
   "data": "clb",
   "title": "Team"
+  "targets": [ 1 ],
+  "visible": false,
 }, {
   "data": "dbt",
   "title": "Debut"
+  "targets": [ 2 ],
+  "visible": true,
 }, {
   "data": "lgm",
   "title": "Last Game"
+  "targets": [ 3 ],
+  "visible": true,
 }, {
   "data": "itl",
   "title": "International"
+  "targets": [ 4 ],
+  "visible": true,
 }, {
   "data": "srt",
   "title": "Sort"
+  "targets": [ 5 ],
+  "visible": false,
 }];
 
 $(document).ready(function() {
