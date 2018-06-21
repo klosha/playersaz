@@ -2,20 +2,23 @@
 
 //enter google sheets key here
 var key =
-  "https://docs.google.com/spreadsheets/d/113QZOTS9JQ1WGfwjwQrOpErUBJTAnaBmdjP0_OjA53c/pubhtml?gid=489792061&single=true";
+  "https://docs.google.com/spreadsheets/d/1EdxuA7WUvBeI7OqHLc2AR7QW4zR1ke0f1r-fEisUtXI/pubhtml?gid=790763898&single=true";
 
 //"data" refers to the column name with no spaces and no capitals
 //punctuation or numbers in your column name
 //"title" is the column name you want to appear in the published table
 var columns = [{
-  "data": "company",
-  "title": "Company"
+  "data": "pnm",
+  "title": "Player Name"
 }, {
-  "data": "violations",
-  "title": "Claims"
+  "data": "dbt",
+  "title": "Debut"
 }, {
-  "data": "total-award",
-  "title": "Total Awarded"
+  "data": "lgm",
+  "title": "Last Game"
+}, {
+  "data": "itl",
+  "title": "International"
 }];
 
 $(document).ready(function() {
