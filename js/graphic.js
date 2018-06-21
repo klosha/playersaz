@@ -57,8 +57,8 @@ $(document).ready(function() {
       "order": [
         [5, "asc"]
       ], //order on second column
-     // "targets": [ 0, 1, 2, 3, 4, 5 ],
-      "visible": true, false, true, true, false,
+    //"targets": [ 0, 1, 2, 3, 4, 5 ],
+    //"visible": true, false, true, true, false,
       "pagingType": "simple" //no page numbers
         //uncomment these options to simplify your table
         //"paging": false,
