@@ -9,34 +9,34 @@ var key =
 //"title" is the column name you want to appear in the published table
 var columns = [{
   "data": "pnm",
-  "title": "Player Name"
+  "title": "Player Name",
   "targets": [ 0 ],
-  "visible": true,
+  "visible": true
 }, {
   "data": "clb",
-  "title": "Team"
+  "title": "Team",
   "targets": [ 1 ],
-  "visible": false,
+  "visible": false
 }, {
   "data": "dbt",
-  "title": "Debut"
+  "title": "Debut",
   "targets": [ 2 ],
-  "visible": true,
+  "visible": true
 }, {
   "data": "lgm",
-  "title": "Last Game"
+  "title": "Last Game",
   "targets": [ 3 ],
-  "visible": true,
+  "visible": true
 }, {
   "data": "itl",
-  "title": "International"
+  "title": "International",
   "targets": [ 4 ],
-  "visible": true,
+  "visible": true
 }, {
   "data": "srt",
-  "title": "Sort"
+  "title": "Sort",
   "targets": [ 5 ],
-  "visible": false,
+  "visible": false
 }];
 
 $(document).ready(function() {
