@@ -55,14 +55,14 @@ $(document).ready(function() {
       "data": data,
       "columns": columns,
       "order": [
-        [5, "asc"]
+        [5, ""]
       ], //order on second column
       "pagingType": "simple" //no page numbers
         //uncomment these options to simplify your table
         //"paging": false,
         //"searching": false,
         //"info": false
-    });
+    //});
   }
 });
 //end of writeTable
