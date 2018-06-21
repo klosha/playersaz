@@ -9,34 +9,22 @@ var key =
 //"title" is the column name you want to appear in the published table
 var columns = [{
   "data": "pnm",
-  "title": "Player Name",
-  "targets": [ 0 ],
-  "visible": true
+  "title": "Player Name"
 }, {
   "data": "clb",
-  "title": "Team",
-  "targets": [ 1 ],
-  "visible": false
+  "title": "Team"
 }, {
   "data": "dbt",
-  "title": "Debut",
-  "targets": [ 2 ],
-  "visible": true
+  "title": "Debut"
 }, {
   "data": "lgm",
-  "title": "Last Game",
-  "targets": [ 3 ],
-  "visible": true
+  "title": "Last Game"
 }, {
   "data": "itl",
-  "title": "International",
-  "targets": [ 4 ],
-  "visible": true
+  "title": "International"
 }, {
   "data": "srt",
-  "title": "Sort",
-  "targets": [ 5 ],
-  "visible": false
+  "title": "Sort"
 }];
 
 $(document).ready(function() {
@@ -69,6 +57,8 @@ $(document).ready(function() {
       "order": [
         [5, "asc"]
       ], //order on second column
+      "targets": [ 0 ], [ 1 ], [ 2 ], [ 3 ], [ 4 ], [ 5 ],
+      "visible": true, false, true, true, false,
       "pagingType": "simple" //no page numbers
         //uncomment these options to simplify your table
         //"paging": false,
