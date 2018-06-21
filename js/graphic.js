@@ -54,11 +54,15 @@ $(document).ready(function() {
     $("#mySelection").DataTable({
       "autoWidth": false,
       "responsive": true,
+      "columnDefs": [
+		            { "visible": false, targets: 1 },
+		            { "visible": false, targets: 5 }
+		        ],
       "data": data,
       "columns": columns,
       "order": [
         [5, "asc"]
-      ], //order on second column
+      ],
       "pagingType": "simple" //no page numbers
         //uncomment these options to simplify your table
         //"paging": false,
