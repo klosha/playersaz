@@ -11,6 +11,9 @@ var columns = [{
   "data": "pnm",
   "title": "Player Name"
 }, {
+  "data": "clb",
+  "title": "Team"
+}, {
   "data": "dbt",
   "title": "Debut"
 }, {
@@ -19,6 +22,9 @@ var columns = [{
 }, {
   "data": "itl",
   "title": "International"
+}, {
+  "data": "srt",
+  "title": "Sort"
 }];
 
 $(document).ready(function() {
@@ -49,7 +55,7 @@ $(document).ready(function() {
       "data": data,
       "columns": columns,
       "order": [
-        [2, "desc"]
+        [5, "desc"]
       ], //order on second column
       "pagingType": "simple" //no page numbers
         //uncomment these options to simplify your table
