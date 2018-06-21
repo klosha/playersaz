@@ -62,18 +62,6 @@ $(document).ready(function() {
         //"paging": false,
         //"searching": false,
         //"info": false
-      
-      "columnDefs": [
-            {
-                "targets": [ 1 ],
-                "visible": false
-            },
-            {
-                "targets": [ 5 ],
-                "visible": false
-            }
-        ]
-      
     });
   }
 });
