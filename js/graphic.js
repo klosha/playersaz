@@ -28,7 +28,6 @@ var columns = [{
 }];
 
 $(document).ready(function() {
-
   function initializeTabletopObject() {
     Tabletop.init({
       key: key,
@@ -55,14 +54,14 @@ $(document).ready(function() {
       "data": data,
       "columns": columns,
       "order": [
-        [5, ""]
+        [5, "desc"]
       ], //order on second column
       "pagingType": "simple" //no page numbers
         //uncomment these options to simplify your table
         //"paging": false,
         //"searching": false,
         //"info": false
-    //});
+    });
   }
 });
 //end of writeTable
