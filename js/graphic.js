@@ -27,7 +27,9 @@ var columns = [{
   "title": "Sort"
 }];
 
+
 $(document).ready(function() {
+  
   function initializeTabletopObject() {
     Tabletop.init({
       key: key,
@@ -46,8 +48,8 @@ $(document).ready(function() {
     //use bootstrap css to customize table style: http://getbootstrap.com/css/#tables
     $('#graphic').html(
       '<table cellpadding="0" cellspacing="0" border="0" class="table table-striped table-condensed table-responsive" id="mySelection"></table>'
-    );
-
+    );    
+    
     //initialize the DataTable object and put settings in
     $("#mySelection").DataTable({
       "autoWidth": false,
