@@ -61,7 +61,7 @@ $(document).ready(function() {
       "data": data,
       "columns": columns,
       "order": [
-        [5, "asc"]
+        [1, "asc", 2, "asc"]
       ],
       "pagingType": "simple" //no page numbers
         //uncomment these options to simplify your table
