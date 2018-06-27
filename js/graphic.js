@@ -8,23 +8,23 @@ var key =
 //punctuation or numbers in your column name
 //"title" is the column name you want to appear in the published table
 var columns = [{
-  "data": "pnm",
-  "title": "Player Name"
+  "data": "pfn",
+  "title": "First Name"
+}, {
+  "data": "psn",
+  "title": "Surname"
 }, {
   "data": "clb",
   "title": "Team"
 }, {
-  "data": "dbt",
-  "title": "Debut"
+  "data": "fgm",
+  "title": "First Game"
 }, {
   "data": "lgm",
   "title": "Last Game"
 }, {
   "data": "itl",
   "title": "International"
-}, {
-  "data": "srt",
-  "title": "Sort"
 }];
 
 
@@ -54,10 +54,10 @@ $(document).ready(function() {
     $("#mySelection").DataTable({
       "autoWidth": false,
       "responsive": true,
-      "columnDefs": [
-		            { "visible": false, targets: 1 },
-		            { "visible": false, targets: 5 }
-		        ],
+     // "columnDefs": [
+	//	            { "visible": false, targets: 1 },
+	//	            { "visible": false, targets: 5 }
+	//	        ],
       "data": data,
       "columns": columns,
       "order": [
