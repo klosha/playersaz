@@ -11,9 +11,6 @@ var columns = [{
   "data": "pfn",
   "title": "First Name"
 }, {
-  "data": "psn",
-  "title": "Surname"
-}, {
   "data": "clb",
   "title": "Team"
 }, {
@@ -25,6 +22,8 @@ var columns = [{
 }, {
   "data": "itl",
   "title": "International"
+}, {
+  "data": "srt"
 }];
 
 
@@ -54,14 +53,13 @@ $(document).ready(function() {
     $("#mySelection").DataTable({
       "autoWidth": false,
       "responsive": true,
-     // "columnDefs": [
-	//	            { "visible": false, targets: 1 },
-	//	            { "visible": false, targets: 5 }
-	//	        ],
+      "columnDefs": [{
+      "visible": false, targets: 5 },
+		        ],
       "data": data,
       "columns": columns,
       "order": [
-        [1, "asc", 2, "asc"]
+        [5, "asc"]
       ],
       "pagingType": "simple" //no page numbers
         //uncomment these options to simplify your table
