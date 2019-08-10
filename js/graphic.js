@@ -14,11 +14,17 @@ var columns = [{
   "data": "clb",
   "title": "Team"
 }, {
+"data": "prv",
+  "title": "Previous Club"
+}, {
   "data": "fgm",
   "title": "First Game"
 }, {
   "data": "lgm",
   "title": "Last Game"
+}, {
+  "data": "nxt",
+  "title": "Next Club"
 }, {
   "data": "itl",
   "title": "International"
@@ -54,12 +60,12 @@ $(document).ready(function() {
       "autoWidth": false,
       "responsive": true,
       "columnDefs": [{
-      "visible": false, targets: 5 },
+      "visible": false, targets: 7 },
 		        ],
       "data": data,
       "columns": columns,
       "order": [
-        [5, "asc"]
+        [7, "asc"]
       ],
       "pagingType": "simple" //no page numbers
         //uncomment these options to simplify your table
