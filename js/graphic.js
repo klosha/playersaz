@@ -1,4 +1,4 @@
-Thanks //Edit 'key' and 'columns' to connect your spreadsheet
+//Edit 'key' and 'columns' to connect your spreadsheet
 
 //enter google sheets key here
 var key =
