@@ -11,10 +11,13 @@ var columns = [{
   "data": "pfn",
   "title": "First Name"
 }, {
+  "data": "pos",
+  "title": "Position"
+}, {
   "data": "clb",
   "title": "Team"
 }, {
-"data": "prv",
+  "data": "prv",
   "title": "Previous Club"
 }, {
   "data": "fgm",
@@ -25,6 +28,12 @@ var columns = [{
 }, {
   "data": "nxt",
   "title": "Next Club"
+}, {
+  "data": "app",
+  "title": "Apps"
+}, {
+  "data": "gls",
+  "title": "Goals"
 }, {
   "data": "itl",
   "title": "International"
@@ -60,12 +69,12 @@ $(document).ready(function() {
       "autoWidth": false,
       "responsive": true,
       "columnDefs": [{
-      "visible": false, targets: 7 },
+      "visible": false, targets: 10 },
 		        ],
       "data": data,
       "columns": columns,
       "order": [
-        [7, "asc"]
+        [10, "asc"]
       ],
       "pagingType": "simple" //no page numbers
         //uncomment these options to simplify your table
