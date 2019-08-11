@@ -73,6 +73,9 @@ $(document).ready(function() {
 		        ],
       "data": data,
       "columns": columns,
+      “rowGroup”: {
+            dataSrc: 2
+      }
       "order": [
         [10, "asc"]
       ],
