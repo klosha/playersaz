@@ -73,12 +73,12 @@ $(document).ready(function() {
 		        ],
       "data": data,
       "columns": columns,
-      “rowGroup”: {
-            dataSrc: 2
-      }
       "order": [
         [10, "asc"]
       ],
+      "rowGroup": {
+            dataSrc: 2
+      },
       "pagingType": "simple" //no page numbers
         //uncomment these options to simplify your table
         //"paging": false,
