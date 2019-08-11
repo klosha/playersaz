@@ -1,4 +1,4 @@
-//Edit 'key' and 'columns' to connect your spreadsheet
+Thanks //Edit 'key' and 'columns' to connect your spreadsheet
 
 //enter google sheets key here
 var key =
@@ -8,8 +8,8 @@ var key =
 //punctuation or numbers in your column name
 //"title" is the column name you want to appear in the published table
 var columns = [{
-  "data": "pfn",
-  "title": "First Name"
+  "data": "pnm",
+  "title": "Player Name"
 }, {
   "data": "pos",
   "title": "Position"
