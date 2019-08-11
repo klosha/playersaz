@@ -76,9 +76,6 @@ $(document).ready(function() {
       "order": [
         [10, "asc"]
       ],
-      "rowGroup": {
-            dataSrc: 2
-      },
       "pagingType": "simple" //no page numbers
         //uncomment these options to simplify your table
         //"paging": false,
