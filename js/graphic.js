@@ -76,7 +76,7 @@ $(document).ready(function() {
       "order": [
         [10, "asc"]
       ],
-      "pagingType": "advanced" //no page numbers
+      "pagingType": "full_numbers"
         //uncomment these options to simplify your table
         //"paging": false,
         //"searching": false,
