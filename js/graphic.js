@@ -3,7 +3,7 @@
 //enter google sheets key here
 var key =
 //  "https://docs.google.com/spreadsheets/d/1EdxuA7WUvBeI7OqHLc2AR7QW4zR1ke0f1r-fEisUtXI/pubhtml?gid=790763898&single=true";
-  "https://docs.google.com/spreadsheets/d/1d17pjp_ai1KfnzumWgFD3r7FVw9Uch-0g3EMVqnMGTA/pubhtml?gid=790763898&single=true";
+  "https://docs.google.com/spreadsheets/d/1d17pjp_ai1KfnzumWgFD3r7FVw9Uch-0g3EMVqnMGTA/pubhtml";
 
 //"data" refers to the column name with no spaces and no capitals
 //punctuation or numbers in your column name
